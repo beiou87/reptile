@@ -1,0 +1,16 @@
+{
+  "name": "pwt_reptile",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js",
+    "test-demo": "node test.js"
+  },
+  "author": "taodingyan",
+  "license": "ISC",
+  "devDependencies": {
+    "osmosis": "^1.1.4"
+  }
+}
