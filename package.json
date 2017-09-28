@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app/index.js",
-    "test-demo": "node test.js"
+    "clean:dist": "rimraf dist",
+    "start": "yarn clean:dist && node app/index.js"
   },
   "author": "taodingyan",
   "license": "ISC",
   "devDependencies": {
-    "osmosis": "^1.1.4"
+    "osmosis": "^1.1.4",
+    "rimraf": "^2.6.1"
   }
 }

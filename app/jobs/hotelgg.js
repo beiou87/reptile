@@ -63,7 +63,7 @@ function run2(){
     .debug(console.log)
     .done(() => {
       console.log('============结束============');
-      console.log(list, list.length, index);
+      console.log(list, list.length);
       Utils.WriteFile(`${CONST.HOTELGG.NAME}.json`,JSON.stringify(list),null);
     });
 }

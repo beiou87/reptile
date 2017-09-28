@@ -1,6 +1,6 @@
 # reptile
 
-## Build
+## Start App
 ```shell
-$ yarn start
+$ yarn start  // node app/index.js
 ```
